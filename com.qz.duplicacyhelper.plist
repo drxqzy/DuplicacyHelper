@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>lastRvTime</key>
+	<integer>0</integer>
+	<key>setBackupIntervalDays</key>
+	<integer>7</integer>
+	<key>setBackupOpt</key>
+	<string>-threads 20</string>
+	<key>setBattThreshold</key>
+	<integer>40</integer>
+	<key>setHealthchecksURL</key>
+	<string>https://hc-ping.com/uuid</string>
+	<key>setPruneOpt</key>
+	<string>-a -keep 30:180 -keep 7:30</string>
+	<key>setRepoPath</key>
+	<string>/</string>
+	<key>ssidWhitelist</key>
+	<array>
+		<string>InsertSSIDHere</string>
+	</array>
+</dict>
+</plist>
